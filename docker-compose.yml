@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  bkbs:
+    build: .
+    container_name: BeiKeBox-Solidity
+    tty: true
+  ganache:
+    image: trufflesuite/ganache:latest
+    container_name: ganache
